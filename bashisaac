@@ -1,0 +1,14 @@
+################################################################################
+#
+# Isaac Lindgren's custom bashrc
+#
+# This file should be sourced at the end of the built in .bashrc
+#
+################################################################################
+
+#
+# END: Source bashisaac-local if it exists
+#
+if [ -f ~/.bashisaac-local ]; then
+  source ~/.bashisaac-local
+fi
